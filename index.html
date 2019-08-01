@@ -10,12 +10,12 @@
     <title>Login</title>
 </head>
 <body>
-    <div>
-        <input type="text" placeholder="Digite o seu nome" id="nome">
-        <input type="email" placeholder="Digite o seu email" name="" id="email">
-        <input type="email" placeholder="Confirme o seu email" name="" id="confirmEmail">
-        <input type="password" placeholder="Digite a sua senha" name="" id="senha">
-        <select name="" id="sexo">
+    <div action="">
+        <input required type="text" placeholder="Digite o seu nome" id="nome">
+        <input required type="email" placeholder="Digite o seu email" name="" id="email">
+        <input required type="email" placeholder="Confirme o seu email" name="" id="confirmEmail">
+        <input required type="password" placeholder="Digite a sua senha" name="" id="senha">
+        <select required>
             <option disabled selected value="">
                 Escolha o seu sexo
             </option>
@@ -29,9 +29,7 @@
                 Feminino
             </option>
         </select>
-        <button>
-            Enviar
-        </button>
+        <input type="submit" value="Enviar" id="botao">
     </div>
     <section>
         <div>
